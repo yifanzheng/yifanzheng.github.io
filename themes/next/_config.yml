@@ -491,7 +491,7 @@ exturl: false
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification:
+google_site_verification: _KvCbCzf5L3mA7kIvuHnTWjO-GuqHGZIGKYQ3IiK0q8
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
@@ -503,10 +503,10 @@ yandex_site_verification:
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
-baidu_site_verification:
+baidu_site_verification: 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
+baidu_push: true
 
 
 # ---------------------------------------------------------------
@@ -703,7 +703,7 @@ google_analytics:
   only_pageview: false
 
 # Baidu Analytics
-baidu_analytics: # <app_id>
+baidu_analytics: 9361113640e3a4ea27e831384b51c353 # <app_id>
 
 # Growingio Analytics
 growingio_analytics: # <project_id>

@@ -1,16 +1,39 @@
-## Star's Tech Blog
+# Star's Tech Blog
 
-Hexo 框架驱动，Next 主题
+框架驱动：[Hexo](https://hexo.io/zh-cn/)  
 
-Hexo 框架地址: https://theme-next.org/docs/getting-started/
+博客主题：[NexT ^6.x](https://github.com/theme-next/hexo-theme-next)
 
-Next 主题 GitHub 地址: https://github.com/theme-next/hexo-theme-next
+## Hexo 搭建
+
+Hexo 官方文档：https://hexo.io/docs/
 
 
-### 参考
+## 主题配置
 
-https://juejin.im/post/5dd2e898e51d45400206a466#heading-0
+NexT 官方文档：https://theme-next.org/docs/getting-started/
 
+
+## 第三方服务
+
+### 阅读量
 
 LeanCloud：https://www.leancloud.cn/
+
+### 评论
+
+Valine：https://valine.js.org/
+
+### 统计
+
+百度统计：https://tongji.baidu.com/
+
+### 收录
+
+百度收录：https://ziyuan.baidu.com/
+Google Search Console: https://search.google.com/search-console
+
+
+
+
 
