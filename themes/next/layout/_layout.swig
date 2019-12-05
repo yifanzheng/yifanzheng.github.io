@@ -58,6 +58,7 @@
         {%- if theme.pjax %}
     </div>
   {%- endif %}
+
+  {% include '_custom/custom.swig' %}
 </body>
- {% include '_custom/custom.swig' %}
 </html>
