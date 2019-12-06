@@ -6,7 +6,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "puplish": "hexo clean && hexo g && gulp && hexo d"
   },
   "hexo": {
     "version": "4.0.0"
