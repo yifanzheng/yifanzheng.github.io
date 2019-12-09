@@ -674,3 +674,5 @@ https://juejin.im/post/5bebfe51e51d45332a456de0#heading-0
 
 https://hexo-guide.readthedocs.io/zh_CN/latest/index.html
 
+https://io-oi.me/tech/hexo-next-optimization/
+
