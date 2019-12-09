@@ -395,14 +395,14 @@ baidusitemap:
 
 提交百度 sitemap：
 
-![baidu_sitemap](asset/imgs/baidusitemap.png)  
+![baidu-sitemap](asset/imgs/baidu-sitemap.png)  
 
 除了 sitemap 之外还提供了多种推送站点内容的方案：
 
-1. 主动推送：通过 API 接口推送站点内容，实时性较高
-2. 自动推送：在网页内添加 JS 脚本，每当页面被访问的时候会将页面 url 推送给百度，比较被动
-3. sitemap：填写站点地图文件地址，百度会周期性的抓取其中的内容进行分析收录，收录效率比较低
-4. 手动提交：手动填写链接地址进行收录
+1. 主动推送：通过 API 接口推送站点内容，实时性较高。
+2. 自动推送：在网页内添加 JS 脚本，每当页面被访问的时候会将页面 url 推送给百度，比较被动。
+3. sitemap：填写站点地图文件地址，百度会周期性的抓取其中的内容进行分析收录，收录效率比较低。
+4. 手动提交：手动填写链接地址进行收录。
 
 - 开启主动推送
 
@@ -451,9 +451,9 @@ baidu_push: true
 
 **谷歌收录**  
 
-在 [Google Search Console]( https://search.google.com/search-console) 中提交站点域名，此时会提供几种验证网站所有权的方法，展开其他验证方法中的 HTML 标记，然后将 meta 标签的 content 属性值复制到主题配置文件中：
+在 [Google Search Console]( https://search.google.com/search-console) 中提交站点域名，此时会提供几种验证网站所有权的方法，展开其他验证方法中的 **HTML 标记**，然后将 meta 标签的 content 属性值复制到主题配置文件中：
 
-![]()
+![google-search1](asset/imgs/google-search1.png)
 
 ```yml
 # Google Webmaster tools verification setting
@@ -463,17 +463,9 @@ google_site_verification: <content>
 
 回到 Search Console 页面点击验证按钮，验证成功后将进入控制台，点击左侧 **站点地图** 菜单，在域名后输入 `sitemap.xml` 并提交，完成站点地图的添加。
 
-![]()
+![google-search](asset/imgs/google-search.png)
 
-
-
-
-
-
-
-
-
-**使用 Gulp 压缩静态资源**
+### 使用 Gulp 压缩静态资源
 
 Gulp 是前端开发过程中对代码进行构建的工具，是自动化项目的构建利器。不仅能对网站的资源进行优化，并且能在开发过程中能够对很多重复的任务使其自动完成。
 

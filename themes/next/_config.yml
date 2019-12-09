@@ -875,7 +875,7 @@ pace:
   # Themes list:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-  theme: center-atom
+  theme: loading-bar
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
