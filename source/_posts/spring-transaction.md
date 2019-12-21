@@ -2,8 +2,9 @@
 title: Spring 事务管理及失效总结
 author: Star.Y.Zheng
 comments: true
+abbrlink: bc551b48
 date: 2019-12-19 21:50:55
-categories:
+categories: Spring Boot 系列
 tags:
 ---
 

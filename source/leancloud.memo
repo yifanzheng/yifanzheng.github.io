@@ -22,4 +22,6 @@
 {"title":"Spring Boot 集成 MyBatis（注解方式）操作数据库","url":"/2019/12/09/springboot-mybatis-annotation/"},
 {"title":"Spring Boot 集成 Mybatis（XML 方式）和 PageHelper 分页插件","url":"/2019/12/09/springboot-mybatis-xml/"},
 {"title":"Spring Boot 资源配置文件读取","url":"/2019/12/09/springboot-properties/"},
+{"title":"桥接模式","url":"/2019/12/19/bridge-pattern/"},
+{"title":"Spring 事务管理及失效总结","url":"/2019/12/19/spring-transaction/"},
 ]

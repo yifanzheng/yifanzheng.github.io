@@ -2,8 +2,9 @@
 title: 桥接模式
 author: Star.Y.Zheng
 comments: true
+categories: Java 设计模式
+abbrlink: 563268dc
 date: 2019-12-19 21:40:05
-categories: Spring Boot 系列
 tags:
 ---
 
