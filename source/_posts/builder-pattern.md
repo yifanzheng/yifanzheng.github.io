@@ -4,7 +4,7 @@ author: Star.Y.Zheng
 comments: true
 abbrlink: a2ac4e28
 date: 2019-12-09 22:57:19
-categories:
+categories: Java 设计模式
 tags:
 ---
 

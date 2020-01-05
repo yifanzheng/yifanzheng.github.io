@@ -2,8 +2,9 @@
 title: Spring Boot 缓存技术
 author: Star.Y.Zheng
 comments: true
-date: 2019-12-30 17:43:55
 categories: Spring Boot 系列
+abbrlink: a4be5387
+date: 2019-12-30 17:43:55
 tags:
 ---
 
