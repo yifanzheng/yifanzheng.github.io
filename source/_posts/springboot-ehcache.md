@@ -2,8 +2,9 @@
 title: Spring Boot 集成 Ehcache 实现缓存机制
 author: Star.Y.Zheng
 comments: true
-date: 2020-01-05 14:16:20
 categories: Spring Boot 系列
+abbrlink: 311b6fc8
+date: 2020-01-05 14:16:20
 tags:
 ---
 Ehcache 是一个用 Java 实现的使用简单，高速，实现线程安全的缓存管理类库，Ehcache 提供了用内存，磁盘文件存储，以及分布式存储方式等多种灵活的 cache 管理方案，采用限制比较宽松的 Apache License V2.0 作为授权方式。Ehcache 从 Hibernate 发展而来，逐渐覆盖了 Cache 界的所有功能，是当前成长趋向不错的一个项目。它具有快速、简单易用、低消耗、强扩展性、依赖性低、支持缓存或元素的失效、支持对象或序列化缓存、支持内存缓存和磁盘缓存、提供了 FIFO、LRU、LFU 缓存策略、采用分布式缓存机制等特点。
@@ -246,7 +247,7 @@ public class UserResource {
 }
 ```
 
-## 演示
+### 演示
 
 通过多次向接口 `http://localhost:8080/api/users/star1` GET 数据来观察效果：
 

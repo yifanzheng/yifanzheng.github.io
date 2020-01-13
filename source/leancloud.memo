@@ -26,4 +26,5 @@
 {"title":"Spring 事务管理及失效总结","url":"/2019/12/19/spring-transaction/"},
 {"title":"Spring Boot 缓存技术","url":"/2019/12/30/springboot-cache/"},
 {"title":"Spring Boot 集成 Guava Cache 实现缓存机制","url":"/2019/12/30/springboot-guava-cache/"},
+{"title":"Spring Boot 集成 Ehcache 实现缓存机制","url":"/2020/01/05/springboot-ehcache/"},
 ]
