@@ -334,13 +334,14 @@ public <T> List<T> searchByQuery(String index, SearchSourceBuilder sourceBuilder
 
 ### 参考
 
-ElasticSearch Java Rest Client：[https://www.elastic.co/guide/en/elasticsearch/client/java-rest/7.5/java-rest-high.html](https://www.elastic.co/guide/en/elasticsearch/client/java-rest/7.5/java-rest-high.html)
+[ElasticSearch Java Rest Client](https://www.elastic.co/guide/en/elasticsearch/client/java-rest/7.5/java-rest-high.html)
 
-ElasticSearch Reference：[https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
+[ElasticSearch Reference](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
 
-Spring Boot 实战之 NoSQL 整合(ElasticSearch 7.3 版本)：[https://cloud.tencent.com/developer/article/1522132](https://cloud.tencent.com/developer/article/1522132)
+[Spring Boot 实战之 NoSQL 整合(ElasticSearch 7.3 版本)](https://cloud.tencent.com/developer/article/1522132)
 
 ### 后记
+
 由于自身能力有限，若有错误或者不当之处，还请大家批评指正，一起学习交流！
 
 GitHub 源码地址：[springboot-elasticsearch](https://github.com/yifanzheng/springboot-action/tree/master/springboot-elasticsearch)
