@@ -27,21 +27,51 @@
   <script src="https://cdn.jsdelivr.net/npm/moment-precise-range-plugin@1.3.0/moment-precise-range.min.js"></script>
   <script>
     function timer() {
-      var ages = moment.preciseDiff(moment(),moment({{ theme.footer.site_runtime.since }},"YYYYMMDD"));
-      ages = ages.replace(/years?/, "年");
-      ages = ages.replace(/months?/, "月");
-      ages = ages.replace(/days?/, "天");
-      ages = ages.replace(/hours?/, "小时");
-      ages = ages.replace(/minutes?/, "分");
-      ages = ages.replace(/seconds?/, "秒");
-      ages = ages.replace(/\d+/g, '<span style="color:{{ theme.footer.site_runtime.color }}">$&</span>');
-      div.innerHTML = `{{ __('footer.site_runtime')}} ${ages}`;
+      // 建站时间
+      var startDate = moment({{ theme.footer.site_runtime.since }},"YYYYMMDD");
+      // 目前时间
+      var now = moment();
+      var duration = moment.duration(now.diff(startDate));
+      var days = Math.floor(duration.asDays());
+      var hours = Math.floor(duration.asHours() - days * 24);
+      var minutes = Math.floor(duration.asMinutes() - Math.floor(duration.asHours()) * 60);
+      var seconds = Math.floor(duration.asSeconds() - Math.floor(duration.asMinutes()) * 60);
+
+      var textStr = "";
+
+      if (days >=0) {
+        textStr = textStr + days + " 天 ";
+      }
+
+      if (hours >= 0) {
+       if (String(hours).length === 1) {
+          hours = "0" + hours;
+        }
+        textStr = textStr + hours + " 时 ";
+      }
+
+      if (minutes >= 0) {
+       if (String(minutes).length === 1) {
+          minutes = "0" + minutes;
+        }
+        textStr = textStr + minutes + " 分 ";
+      }
+      
+      if (seconds >= 0) {
+       if (String(seconds).length === 1) {
+          seconds = "0" + seconds ;
+        }
+        textStr = textStr + seconds + " 秒 ";
+      }
+      
+      textStr = textStr.replace(/\d+/g, '<span style="color:{{ theme.footer.site_runtime.color }}">$&</span>');
+      div.innerHTML = `{{ __('footer.site_runtime')}} ${textStr}`;
     }
     var div = document.createElement("div");
-    //插入到copyright之后
+    // 插入到copyright之后
     var copyright = document.querySelector(".copyright");
     document.querySelector(".footer-inner").insertBefore(div, copyright.nextSibling);
     timer();
-    setInterval("timer()",1000)
+    setInterval("timer()", 1000)
   </script>
 {% endif %}

@@ -2,8 +2,9 @@
 title: HTTP 协议入门
 author: Star.Y.Zheng
 comments: true
-date: 2020-02-13 10:12:50
 categories: HTTP
+abbrlink: a9b5fe53
+date: 2020-02-13 10:12:50
 tags:
 ---
 
