@@ -30,5 +30,6 @@
 {"title":"Widows 环境下安装 ElasticSearch 并配置 ElasticSearch Head","url":"/2020/02/08/elasticsearch-setup/"},
 {"title":"Spring Boot 集成 ElasticSearch （7.x 版本）搜索引擎","url":"/2020/02/08/springboot-elasticsearch/"},
 {"title":"HTTP 协议入门","url":"/2020/02/13/http-document/"},
+{"title":"Angular: [ControlValueAccessor] 自定义表单控件","url":"/2020/03/09/angular-controlvalueaccessor/"},
 {"title":"Angular：使用[@Directive]自定义指令","url":"/2020/03/09/angular-directive/"},
 ]

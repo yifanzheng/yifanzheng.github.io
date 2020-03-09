@@ -1,9 +1,10 @@
 ---
-title: Angular: [ControlValueAccessor] 自定义表单控件 
+title: 'Angular: [ControlValueAccessor] 自定义表单控件'
 author: Star.Y.Zheng
 comments: true
-date: 2020-03-09 17:23:32
 categories: Angular
+abbrlink: 91c5f804
+date: 2020-03-09 17:23:32
 tags:
 ---
 
