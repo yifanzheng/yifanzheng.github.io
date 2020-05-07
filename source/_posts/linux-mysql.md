@@ -3,7 +3,7 @@ title: CentOS 7 安装 MySQL
 author: Star.Y.Zheng
 comments: true
 date: 2020-05-07 21:12:10
-categories:
+categories: 系统安装
 tags:
 ---
 

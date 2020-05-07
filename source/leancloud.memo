@@ -33,4 +33,6 @@
 {"title":"Angular: [ControlValueAccessor] 自定义表单控件","url":"/2020/03/09/angular-controlvalueaccessor/"},
 {"title":"Angular：使用[@Directive]自定义指令","url":"/2020/03/09/angular-directive/"},
 {"title":"程序员日常开发注意事项总结","url":"/2020/04/11/code-summary/"},
+{"title":"CentOS 7 安装 MySQL","url":"/2020/05/07/linux-mysql/"},
+{"title":"volatile 关键字，你真的理解吗？","url":"/2020/05/07/volatile/"},
 ]

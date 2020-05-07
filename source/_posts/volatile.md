@@ -2,8 +2,9 @@
 title: volatile 关键字，你真的理解吗？
 author: Star.Y.Zheng
 comments: true
-date: 2020-05-07 20:53:28
 categories: Java
+abbrlink: 5a301f3d
+date: 2020-05-07 20:53:28
 tags:
 ---
 
@@ -263,7 +264,7 @@ if (flag) { // 3
 
 为了实现 volatile 内存语义（即内存可见性），JMM 会限制特定类型的编译器和处理器重排序。为此，JMM 针对编译器制定了 volatile 重排序规则表，如下所示：
 
-![volatile重排序规则](volatilebarrier.png)
+![volatile重排序规则](volatileguize.png)
 
 使用 volatile 修饰变量时，根据 volatile 重排序规则表，Java 编译器在生成字节码时，会在指令序列中插入内存屏障指令来禁止特定类型的处理器重排序。
 
@@ -282,7 +283,7 @@ JMM 把内存屏障指令分为下列四类：
 
 下面我们来看看 volatile  读 / 写时是如何插入内存屏障的，见下图：
 
-![内存屏障](barrier.png)
+![内存屏障](volatilebarrier.png)
 
 
 从上图，我们可以知道 volatile 读 / 写插入内存屏障规则：
