@@ -212,12 +212,12 @@ social_icons:
 # Blog rolls
 links_settings:
   icon: link
-  title: Links
+  title: 友情链接
   # Available values: block | inline
   layout: block
 
 links:
-  #Title: http://yoursite.com
+  搜索技术博客: https://kalasearch.cn/blog
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).

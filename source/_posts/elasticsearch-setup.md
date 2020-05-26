@@ -132,6 +132,8 @@ discovery.zen.ping.unicast.hosts: ["127.0.0.1"]
 
 ### 参考
 
-[ElaticSearch 官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup.html)
+[ElasticSearch 官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup.html)
 
-[ElaticSearch 集群搭建及参数详解](https://www.jianshu.com/p/149a8da90bbc)
+[ElasticSearch 集群搭建及参数详解](https://www.jianshu.com/p/149a8da90bbc)
+
+[ElasticSearch 教程](https://kalasearch.cn/blog/elasticsearch-tutorial/)
