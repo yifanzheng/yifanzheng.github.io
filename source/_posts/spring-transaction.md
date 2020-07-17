@@ -13,7 +13,7 @@ tags:
 Spring 并不直接管理事务，而是提供了多种事务管理器，他们将事务管理的职责委托给 Hibernate 或者 JTA 等持久化机制所提供的相关平台框架的事务来实现。  
 
  Spring 事务管理器接口： `org.springframework.transaction.PlatformTransactionManager` ，通过这个接口，Spring 为各个平台如 JDBC(DataSourceTransactionManager)、Hibernate(HibernateTransactionManager)、JPA(JpaTransactionManager) 等都提供了对应的事务管理器，但是具体的实现就是各个平台自己的事情了。
-
+<!-- more -->
 ### Spring 事务的分类
 
 Spring 提供了两种事务管理方式：**声明式事务管理**和**编程式事务管理**。对不同的持久层访问技术，编程式事务提供一致的事务编程风格，通过模板化的操作一致性地管理事务；而声明式事务基于 Spring AOP 实现，却并不需要程序开发者成为 AOP 专家，亦可轻易使用 Spring 的声明式事务管理。
