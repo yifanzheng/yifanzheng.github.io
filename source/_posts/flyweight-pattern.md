@@ -2,8 +2,9 @@
 title: 享元模式
 author: Star.Y.Zheng
 comments: true
-date: 2020-07-17 21:18:07
 categories: Java 设计模式
+abbrlink: e19da94a
+date: 2020-07-17 21:18:07
 tags:
 ---
 享元模式(Flyweight)，使用共享技术有效地支持大量细粒度的对象。常用于系统底层开发，解决系统的性能问题。比如，数据库连接池技术。

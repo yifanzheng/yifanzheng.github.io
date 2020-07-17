@@ -2,8 +2,9 @@
 title: 装饰者模式
 author: Star.Y.Zheng
 comments: true
-date: 2020-07-17 21:10:13
 categories: Java 设计模式
+abbrlink: a708a60d
+date: 2020-07-17 21:10:13
 tags:
 ---
 

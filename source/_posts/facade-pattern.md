@@ -2,8 +2,9 @@
 title: 外观模式
 author: Star.Y.Zheng
 comments: true
-date: 2020-07-17 21:16:19
 categories: Java 设计模式
+abbrlink: f7de8aa8
+date: 2020-07-17 21:16:19
 tags:
 ---
 

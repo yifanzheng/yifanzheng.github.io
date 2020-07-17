@@ -35,4 +35,9 @@
 {"title":"程序员日常开发注意事项总结","url":"/2020/04/11/code-summary/"},
 {"title":"CentOS 7 安装 MySQL","url":"/2020/05/07/linux-mysql/"},
 {"title":"volatile 关键字，你真的理解吗？","url":"/2020/05/07/volatile/"},
+{"title":"组合模式","url":"/2020/07/17/composite-pattern/"},
+{"title":"装饰者模式","url":"/2020/07/17/decorator-pattern/"},
+{"title":"外观模式","url":"/2020/07/17/facade-pattern/"},
+{"title":"享元模式","url":"/2020/07/17/flyweight-pattern/"},
+{"title":"代理模式","url":"/2020/07/17/proxy-pattern/"},
 ]

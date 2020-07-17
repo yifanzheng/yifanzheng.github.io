@@ -2,8 +2,9 @@
 title: 代理模式
 author: Star.Y.Zheng
 comments: true
-date: 2020-07-17 21:19:32
 categories: Java 设计模式
+abbrlink: 7b510e10
+date: 2020-07-17 21:19:32
 tags:
 ---
 

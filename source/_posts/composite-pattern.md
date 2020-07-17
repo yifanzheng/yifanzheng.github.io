@@ -2,8 +2,9 @@
 title: 组合模式
 author: Star.Y.Zheng
 comments: true
-date: 2020-07-17 21:13:55
 categories: Java 设计模式
+abbrlink: df879792
+date: 2020-07-17 21:13:55
 tags:
 ---
 
