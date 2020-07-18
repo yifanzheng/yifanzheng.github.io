@@ -4,7 +4,7 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - hexo-blof-backup
+      - hexo-blog-backup
     # 下列文件的变更不触发部署，可以自行添加
     paths-ignore:   
       - README.md
