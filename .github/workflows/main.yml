@@ -47,7 +47,7 @@ jobs:
       env: 
         REPO: github.com/yifanzheng/yifanzheng.github.io
       run: |
-        git clone "https://${{ secrets.GH_REPO }}" deploy_git
+        git clone "https://$REPO" deploy_git
         mv ./deploy_git/.git ./public/
         cd ./public
         git config user.name "yifanzheng"
