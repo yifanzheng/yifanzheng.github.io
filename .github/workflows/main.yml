@@ -21,7 +21,12 @@ jobs:
           persist-credentials: false
 
       - name: Build
-        run: npm install -g hexo-cli && npm install
+        run: |
+        mkdir ~/.npm-global
+        npm config set prefix '~/.npm-global'
+        PATH=~/.npm-global/bin:$PATH
+        npm install -g hexo-cli 
+        npm install
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
