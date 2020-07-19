@@ -47,12 +47,9 @@ jobs:
       env: 
         REPO: github.com/yifanzheng/yifanzheng.github.io
       run: |
-        git clone "https://$REPO" deploy_git
-        mv ./deploy_git/.git ./public/
-        cd ./public
+        cd ./public && git init && git add .
         git config user.name "yifanzheng"
         git config user.email "zhengyifan1996@outlook.com"
         git add .
         git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
         git push --force --quiet "https://${{ secrets.ACCESS_TOKEN }}@$REPO" master:master
-        
