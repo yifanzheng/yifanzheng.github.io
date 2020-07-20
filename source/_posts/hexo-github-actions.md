@@ -2,8 +2,9 @@
 title: 使用 GitHub Actions 自动部署 Hexo 博客到 GitHub Pages
 author: Star.Y.Zheng
 comments: true
-date: 2020-07-19 22:20:39
 categories: 技术教程
+abbrlink: 15f7479e
+date: 2020-07-19 22:20:39
 tags:
 ---
 
@@ -85,7 +86,7 @@ jobs:
     - name: Install hexo dependencies
       # 下载 hexo-cli 脚手架及相关安装包
       run: |
-        npm install hexo-cli gulp -g
+        npm install -g hexo-cli
         npm install
 
     - name: Generate files
@@ -94,9 +95,6 @@ jobs:
         hexo clean
         hexo generate
 
-    - name: Execute gulp task
-      run: gulp
-
     - name: Deploy hexo blog
       env: 
         # Github 仓库
@@ -104,7 +102,7 @@ jobs:
         # Coding 仓库
         CODING_REPO: e.coding.net/yifanzheng/blogs.git
         # Gitee 仓库
-        GITEE_REPO: gitee.com/yifanzheng/yifanzheng.gitee.io
+        GITEE_REPO: gitee.com/yifanzheng/yifangzheng.gitee.io.git
       # 将编译后的博客文件推送到指定仓库
       run: |
         cd ./public && git init && git add .

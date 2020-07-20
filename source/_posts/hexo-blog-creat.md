@@ -2,8 +2,9 @@
 title: Hexo + GitHub Pages 搭建个人博客及 NexT 主题配置
 author: Star.Y.Zheng
 comments: true
-date: 2020-07-19 23:34:13
 categories: 技术教程
+abbrlink: bb1ec0e8
+date: 2020-07-19 23:34:13
 tags:
 ---
 
