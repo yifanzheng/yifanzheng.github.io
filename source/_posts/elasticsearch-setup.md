@@ -2,7 +2,7 @@
 title: Widows 环境下安装 ElasticSearch 并配置 ElasticSearch Head
 author: Star.Y.Zheng
 comments: true
-categories: 系统安装
+categories: 技术教程
 abbrlink: b942cdb6
 date: 2020-02-08 22:05:06
 tags:
