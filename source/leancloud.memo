@@ -40,4 +40,6 @@
 {"title":"外观模式","url":"/2020/07/17/facade-pattern/"},
 {"title":"享元模式","url":"/2020/07/17/flyweight-pattern/"},
 {"title":"代理模式","url":"/2020/07/17/proxy-pattern/"},
+{"title":"Hexo + GitHub Pages 搭建个人博客及 NexT 主题配置","url":"/2020/07/19/hexo-blog-creat/"},
+{"title":"使用 GitHub Actions 自动部署 Hexo 博客到 GitHub Pages","url":"/2020/07/19/hexo-github-actions/"},
 ]
