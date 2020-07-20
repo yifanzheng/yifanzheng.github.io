@@ -4,6 +4,8 @@
 
 博客主题：[NexT ^6.x](https://github.com/theme-next/hexo-theme-next)
 
+博客部署：本博客已使用 Github Actions 进行自动部署，部署文件查看 `.github/workflows/main.yml`。
+
 ## 博客搭建与配置
 
 ### 环境准备
