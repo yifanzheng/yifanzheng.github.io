@@ -104,7 +104,7 @@ jobs:
         # Coding 仓库
         CODING_REPO: e.coding.net/yifanzheng/blogs.git
         # Gitee 仓库
-        GITEE_REPO: github.com/yifanzheng/yifanzheng.github.io
+        GITEE_REPO: gitee.com/yifanzheng/yifanzheng.gitee.io
       # 将编译后的博客文件推送到指定仓库
       run: |
         cd ./public && git init && git add .
