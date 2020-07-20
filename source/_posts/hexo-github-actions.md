@@ -11,6 +11,8 @@ tags:
 
 最近，看到网上有很多人开始使用 GitHub Actions 进行项目的持续集成（CI）以及持续部署（CD）。于是，我也心血来潮，开始使用 GitHub Actions 来进行个人博客的自动部署。不得不说，GitHub Actions 真香！
 
+<!-- more -->
+
 之前，我部署 Hexo 博客时，先通过 `hexo g` 将写好的 Markdown 文件转化为 HTML 文件，然后再使用 `hexo d` 把生成的 public 文件推送到 Github 仓库中，然后又使用 git 命令将 Hexo 博客开发源码推送到仓库的另一个分支中进行备份。这样来来回回的操作，着实有点麻烦。但使用了 GitHub Actions 后就方便多了，我只需提前写好自动化执行的脚本，当我将 Hexo 开发源码推送指定分支，GitHub Actions 自动就帮我生成好 HTML 文件并发布到 GitHub Pages 上，是不是很方便呀。
 
 下面，我们就来看看是如何利用  GitHub Actions 实现自动化部署 Hexo 博客的吧。
