@@ -1,14 +1,22 @@
 ---
-abbrlink: 68d29585
+title: Spring Security With JWT 入门教程
+author: Star.Y.Zheng
+comments: true
+categories: Spring Boot 系列
+abbrlink: 99dea854
+date: 2020-07-09 21:26:24
+tags:
 ---
-# Spring Security With JWT
-> GitHub 源码地址：[https://github.com/yifanzheng/spring-security-jwt](https://github.com/yifanzheng/spring-security-jwt)
 
 ### 概述
+
+> GitHub 源码地址：[https://github.com/yifanzheng/spring-security-jwt](https://github.com/yifanzheng/spring-security-jwt)
 
 Spring Security 是 Spring 全家桶中一个功能强大且高度可定制的身份验证和访问控制框架。与所有 Spring 项目一样，我们可以轻松扩展 Spring Security 以满足自定义要求。 
 
 由于 Spring Security 功能十分强大，相比于其他技术来说很难上手，很多刚接触 Spring Security 的开发者很难通过文档或者视频就能将其进行运用到实际开发中。
+
+<!-- more -->
 
 在公司实习的时候接触到的一个项目就使用了 Spring Security 这个强大的安全验证框架来完成用户的登录模块，并且也是自己负责的一个模块。当时自己对 Spring Security 基本不熟悉，可以说是第一次接触，查阅了很多关于这方面的资料，看得似懂非懂的，并且还在导师的指导下都花了将近一周的时间才勉强完成。
 

@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yifanstar.top/
-root: /
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,8 +101,8 @@ deploy:
  -
   type: 'git'
   repo: 
-    github: https://github.com/yifanzheng/yifanzheng.github.io.git
-    coding: https://git.dev.tencent.com/yifanzheng/blogs.git
+    # github: https://github.com/yifanzheng/yifanzheng.github.io.git
+    gitee: https://gitee.com/yifanzheng/blogs.git
   branch: master
  -
   type: leancloud_counter_security_sync

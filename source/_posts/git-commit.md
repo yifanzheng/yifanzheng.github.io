@@ -8,8 +8,6 @@ date: 2020-07-21 20:38:05
 tags:
 ---
 
-> 本文首发于我的个人博客：[http://yifanstar.top/](http://yifanstar.top/)
-
 Commit message 是开发的日常操作，它可以提供更多的历史信息，方便，还可以有效的生成 Change log，对项目的管理实际至关重要，但是实际工作中却常常被大家忽略。
 
 <!-- more -->
