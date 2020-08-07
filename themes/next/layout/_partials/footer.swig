@@ -62,6 +62,10 @@
     {{- __('footer.theme') }} – {{ next_url(next_site, 'NexT.' + theme.scheme, {class: 'theme-link'}) }}
     {%- if theme.footer.theme.version %} v{{ next_version }}{%- endif %}
   </div>
+  <div>
+   	{{ __('蜀ICP备') }} -
+    <a target="_blank" href="http://www.beian.miit.gov.cn/" style="color:#f0d784" rel="nofollow">20024238号-1</a> <!--a标签中增加nofollow属性，避免爬虫出站。-->
+  </div>
 {%- endif %}
 
 {%- if theme.add_this_id %}

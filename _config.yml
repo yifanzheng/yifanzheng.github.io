@@ -102,7 +102,7 @@ deploy:
   type: 'git'
   repo: 
     # github: https://github.com/yifanzheng/yifanzheng.github.io.git
-    gitee: https://gitee.com/yifanzheng/blogs.git
+    coding: https://e.coding.net/yifanzheng/blogs/blogs.git
   branch: master
  -
   type: leancloud_counter_security_sync
