@@ -12,7 +12,7 @@ tags:
 提到 ThreadLocal， Java 开发者并不陌生。在面试中，也经常被面试官提及，对 Java 开发者而言也是一个必须掌握的知识点，所以将它理解透彻是很有必要的。
 
 文章稍微有点长，不过介绍的还是比较细致。
-
+<!-- more -->
 ### ThreadLocal 是什么
 
 ThreadLocal 是一个关于创建线程局部变量的类，主要作用是做数据隔离，保存到 ThreadLocal 中的数据只属于当前线程，该数据对其他线程而言是隔离的。也就是说，使用 ThreadLocal 保存的数据只能被当前线程访问，其他线程无法访问和修改。在多线程环境下，防止自己的变量被其他线程篡改。
@@ -249,7 +249,7 @@ static class ThreadLocalMap {
 
 从源码中，我们可以得知 ThreadLocalMap 的结构大致如下：
 
-![ThreadLocalMap](threadlocalmap.png)
+![ThreadLocalMap](https://img-blog.csdnimg.cn/2020081715500060.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L29zY2hpbmFfNDE3OTA5MDU=,size_16,color_FFFFFF,t_70#pic_center)
 
 在创建 ThreadLoalMap 对象时会初始化一个大小是 16 的 Entry 数组，扩容阈值是数组大小的 2/3，Entry 对象用来保存每一个键值对(key-value)，而这里的 key 永远都是ThreadLocal 对象本身，通过 ThreadLocal 对象的 set 方法，把 ThreadLocal 对象自己当做 key，放进了 ThreadLoalMap 中。
 
